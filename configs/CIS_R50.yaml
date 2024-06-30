@@ -1,0 +1,5 @@
+_BASE_: "Base-CIS.yaml" # R50配置文件
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
